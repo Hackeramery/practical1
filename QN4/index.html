@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms Example</title>
+    <style>
+        .saw{
+            border: 1px solid #000;
+            margin-top: 20px;
+            height: 100px;
+            width: 300px;
+            white-space: -pre-wrap;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <div class="container">
+        <fieldset>
+            <legend>Academic information</legend>
+        <div class="text">Degree
+            <label for="Degree"></label>
+            <select name="Degree">
+                <option value="">Master of Business Administration</option>
+            </select>
+            <br>
+            </div>
+            Student ID <input type="text"><br>
+            <div class="class">Class attended
+                <label for="class"></label>
+                <select name="Class">
+            <option value="">Geography</option>
+            <option value="">Mathematics</option>
+            <option value="">English</option>
+        </select>
+            </div>
+        <br>
+
+        </fieldset>
+        <fieldset>
+            <legend> Personal Details</legend>
+            First Name <input type="text"><br>
+            Last Name <input type ="text"><br>
+            Gender: <input type="radio" name="">Male<input type="radio" name="">Female<br>
+            Email<input type="text">
+
+        </fieldset>
+</div>
+        <p><div class="saw">TERMS AND CONDITIONS...</div></p>      
+        <input type="submit" value="Send Form"> 
+        <input type="submit" value="Clear Form">
+    </form>
+</body>
+</html>
